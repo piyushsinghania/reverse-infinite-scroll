@@ -1,0 +1,14 @@
+#list {
+  border: 1px solid black;
+  background-color: antiquewhite;
+  height: 250px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.item {
+  flex: 1;
+  padding: 2em;
+  border: 1px dashed green;
+}
